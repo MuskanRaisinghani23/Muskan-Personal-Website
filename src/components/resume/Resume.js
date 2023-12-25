@@ -73,7 +73,7 @@ const Resume = () => {
                 : "border-transparent"
             } resumeLi`}
           >
-            Achievements
+            Activities and Awards
           </li>
         </ul>
       </div>
