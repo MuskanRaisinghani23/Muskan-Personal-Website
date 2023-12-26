@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaInstagram, FaGithub, FaLinkedinIn, FaPython, FaDatabase, FaSnowflake, FaAws } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiFigma, SiNextdotjs, SiApacheairflow } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -71,6 +71,9 @@ const LeftBanner = () => {
             </span>
             <span className="bannerIcon">
               <FaAws />
+            </span>
+            <span className="bannerIcon">
+              <SiApacheairflow />
             </span>
           </div>
         </div>
