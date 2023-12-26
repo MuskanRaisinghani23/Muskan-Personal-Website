@@ -19,7 +19,7 @@ const Experience = () => {
             title="Sr. Software Engineer"
             subTitle="Google Out Tech - (2017 - Present)"
             result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up.oogle's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
           />
           <ResumeCard
             title="Web Developer & Trainer"
