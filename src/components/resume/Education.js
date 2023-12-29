@@ -15,7 +15,7 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">Fall 2023 - Present</p>
           <h2 className="text-3xl md:text-4xl font-bold">Northeastern University</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[300px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-[320px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="M.S. in Information System"
             subTitle="Coursework: Data Science Engineering Methods and Tools, Application Engineering and Development"
@@ -31,7 +31,7 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">2016 - 2022</p>
           <h2 className="text-3xl md:text-4xl font-bold">University of Mumbai</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[300px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-[320px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="B.E. in Computer Engineering"
             subTitle="Coursework: Big Data Analytics, Database Management System, Data Warehousing, Analysis of Algorithms"
