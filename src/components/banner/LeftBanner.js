@@ -28,7 +28,7 @@ const LeftBanner = () => {
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
           I am an enthusiastic and hard-working student at Northeastern University with a passion for transforming raw information into actionable insights. 
-          I've industry experience in optimizing data workflows and implementing innovative solutions, from financial analysis to real-time data streaming. 
+          I've industry experience in product development, optimizing data workflows and implementing innovative solutions, from financial analysis to real-time data streaming. 
           I am a quick learner with excellent communication skills, adept at fostering collaboration within cross-functional teams. 
         </p>
       </div>
