@@ -10,14 +10,10 @@ const ContactLeft = () => {
         src={contactImg}
         alt="contactImg"
       />
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 mt-5">
         <p className="text-base text-gray-400 flex items-center gap-2">
         Name: <span className="text-lightText">Muskan Deeepak Raisinghani</span>
         </p>
-        {/* <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
-        </p> */}
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+1 (857) 334-1429</span>
         </p>
@@ -26,7 +22,7 @@ const ContactLeft = () => {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+        <h2 className="text-base uppercase font-titleFont mb-4 mt-5">Find me in</h2>
         <div className="flex gap-4">
           <a href='https://www.linkedin.com/in/muskan-raisinghani/'>
               <span className="bannerIcon">
@@ -43,6 +39,13 @@ const ContactLeft = () => {
                 <FaInstagram />
               </span>
             </a>
+        </div>
+      </div>
+      <div className="flex justify-center items-center text-center">
+        <div className="flex flex-col font-titleFont mb-14">
+          <h3 className="text-sm uppercase font-light text-designColor tracking-wide">
+          </h3>
+          <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize"></h1>
         </div>
       </div>
     </div>
