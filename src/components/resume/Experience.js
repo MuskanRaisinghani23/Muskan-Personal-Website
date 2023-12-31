@@ -14,7 +14,8 @@ const Experience = () => {
           <p className="text-sm text-designColor tracking-[4px]">Sept 2022 - June 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">CRISIL</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[400px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        {/* <div className="mt-6 lgl:mt-14 w-full h-[400px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10"> */}
+        <div className="mt-6 lgl:mt-14 w-full lg:w-auto lg:flex-grow border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Research Analyst - Data Analytics"
             subTitle="Global Research and Risk Solutions"
@@ -31,7 +32,8 @@ const Experience = () => {
             <p className="text-sm text-designColor tracking-[4px]">Aug 2020 - Aug 2022</p>
             <h2 className="text-3xl md:text-4xl font-bold">Larsen & Toubro Infotech</h2>
           </div>
-          <div className="mt-6 lgl:mt-14 w-full h-[400px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          {/* <div className="mt-6 lgl:mt-14 w-full h-[400px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10"> */}
+          <div className="mt-6 lgl:mt-14 w-full lg:w-auto lg:flex-grow border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
             <ResumeCard
               title="Data Engineer"
               subTitle="Snowflake Data Center of Excellence (COE)"
