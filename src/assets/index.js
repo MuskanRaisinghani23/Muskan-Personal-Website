@@ -10,9 +10,6 @@ import azureBasic from "./images/certifications/azureBasic.png";
 import azureAI from "./images/certifications/azureAI.png";
 import azureData from "./images/certifications/azureData.png";
 import snowflakeDE from "./images/certifications/snowflakeDE.png";
-import testimonialOne from "./images/testmonial/testimonialOne.png";
-import testimonialTwo from "./images/testmonial/testimonialTwo.png";
-import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 
 export {
@@ -28,8 +25,5 @@ export {
   azureAI,
   azureData,
   snowflakeDE,
-  testimonialOne,
-  testimonialTwo,
-  quote,
   contactImg,
 };
