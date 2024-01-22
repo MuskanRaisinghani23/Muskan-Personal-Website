@@ -86,7 +86,7 @@ const Contact = () => {
                 </p>
               )}
               <div className="w-full flex flex-col lgl:flex-row gap-10">
-                <div className="w-full lgl:w-1/2 flex flex-col gap-4">
+                <div className="w-full lgl:w flex flex-col gap-4">
                   <p className="text-sm text-gray-400 uppercase tracking-wide">
                     Your name
                   </p>
