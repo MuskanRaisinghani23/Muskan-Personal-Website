@@ -70,22 +70,6 @@ const Resume = () => {
               setEducationData(false) &
               setSkillData(false) &
               setExperienceData(false) &
-              setAchievementData(false) &
-              setCertificationData(true)
-            }
-            className={`${
-              certificationData
-                ? "border-designColor rounded-lg"
-                : "border-transparent"
-            } resumeLi`}
-          >
-            Certifications
-          </li>
-          <li
-            onClick={() =>
-              setEducationData(false) &
-              setSkillData(false) &
-              setExperienceData(false) &
               setAchievementData(true) &
               setCertificationData(false)
             }
@@ -96,6 +80,22 @@ const Resume = () => {
             } resumeLi`}
           >
             Activities
+          </li>
+          <li
+            onClick={() =>
+              setEducationData(false) &
+              setSkillData(false) &
+              setExperienceData(false) &
+              setAchievementData(false) &
+              setCertificationData(true)
+            }
+            className={`${
+              certificationData
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+          >
+            Certifications
           </li>
         </ul>
       </div>

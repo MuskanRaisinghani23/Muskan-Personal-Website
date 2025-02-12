@@ -33,8 +33,8 @@ const Achievement = () => {
       </div>
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2018 - present</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Social Volunteering</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2018 - 2020</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Volunteering</h2>
         </div>
         {/* <div className="mt-6 lgl:mt-14 w-full h-[570px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10"> */}
         <div className="mt-6 lgl:mt-14 w-full lg:w-auto lg:flex-grow border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
