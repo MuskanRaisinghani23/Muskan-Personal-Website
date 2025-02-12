@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.2b69def4.css",
-    "main.js": "./static/js/main.e376caff.js",
+    "main.css": "./static/css/main.008d9bac.css",
+    "main.js": "./static/js/main.b0af473f.js",
     "static/media/projectFour.png": "./static/media/projectFour.2161114ced0ef713c47e.png",
     "static/media/projectFive.png": "./static/media/projectFive.e7f9bae38d8c1f1bc1b6.png",
+    "static/media/NewProject.png": "./static/media/NewProject.6975a6cea8d0ee4ada48.png",
     "static/media/bannerImg.png": "./static/media/bannerImg.13b7c4a286c9ba209ad5.png",
     "static/media/projectTwo.png": "./static/media/projectTwo.a0fefdd49082732b4e13.png",
     "static/media/projectSix.jpg": "./static/media/projectSix.55a5b4d517e8ee8b282a.jpg",
@@ -14,14 +15,13 @@
     "static/media/azureData.png": "./static/media/azureData.8c941591fc97b847a6bc.png",
     "static/media/azureAI.png": "./static/media/azureAI.142972f51bf565e9a0bc.png",
     "static/media/azureBasic.png": "./static/media/azureBasic.f9242d874153e32a9f32.png",
-    "static/media/projectOne.JPG": "./static/media/projectOne.39fec4238511c89b359f.JPG",
-    "static/media/logo.PNG": "./static/media/logo.91e716ca59100e2d2b63.PNG",
+    "static/media/projectOne.jpg": "./static/media/projectOne.39fec4238511c89b359f.jpg",
     "index.html": "./index.html",
-    "main.2b69def4.css.map": "./static/css/main.2b69def4.css.map",
-    "main.e376caff.js.map": "./static/js/main.e376caff.js.map"
+    "main.008d9bac.css.map": "./static/css/main.008d9bac.css.map",
+    "main.b0af473f.js.map": "./static/js/main.b0af473f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b69def4.css",
-    "static/js/main.e376caff.js"
+    "static/css/main.008d9bac.css",
+    "static/js/main.b0af473f.js"
   ]
 }
