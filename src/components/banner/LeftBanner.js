@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaInstagram, FaGithub, FaLinkedinIn, FaPython, FaDatabase, FaSnowflake, FaAws } from "react-icons/fa";
+import { SiTableau } from "react-icons/si";
 import { SiTailwindcss, SiFigma, SiNextdotjs, SiApacheairflow } from "react-icons/si";
 
 const LeftBanner = () => {
@@ -48,9 +49,9 @@ const LeftBanner = () => {
                 <FaGithub />
               </span>
             </a>
-            <a href='https://www.instagram.com/muskan_raisinghani/'>
+            <a href='https://public.tableau.com/app/profile/muskan.deepak.raisinghani/vizzes'>
               <span className="bannerIcon">
-                <FaInstagram />
+                <SiTableau />
               </span>
             </a>           
           </div>
