@@ -1,27 +1,30 @@
 {
   "files": {
     "main.css": "./static/css/main.389f04a9.css",
-    "main.js": "./static/js/main.83f25d8c.js",
+    "main.js": "./static/js/main.eca74ae1.js",
     "static/media/projectFour.png": "./static/media/projectFour.2161114ced0ef713c47e.png",
     "static/media/projectFive.png": "./static/media/projectFive.e7f9bae38d8c1f1bc1b6.png",
     "static/media/NewProject.png": "./static/media/NewProject.6975a6cea8d0ee4ada48.png",
     "static/media/bannerImg.png": "./static/media/bannerImg.13b7c4a286c9ba209ad5.png",
     "static/media/projectTwo.png": "./static/media/projectTwo.a0fefdd49082732b4e13.png",
+    "static/media/snowPro.png": "./static/media/snowPro.330762ea89b1d0b8b086.png",
     "static/media/projectSix.jpg": "./static/media/projectSix.55a5b4d517e8ee8b282a.jpg",
     "static/media/contactImg.png": "./static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/awsCCP.png": "./static/media/awsCCP.d79f9489b7b490b0eb44.png",
     "static/media/snowflakeDL.png": "./static/media/snowflakeDL.032e91b9fba9c91a8a0c.png",
     "static/media/snowflakeDE.png": "./static/media/snowflakeDE.8f07ad704bd2ed1d41a6.png",
     "static/media/projectThree.png": "./static/media/projectThree.44796b4371edbd408d76.png",
     "static/media/azureData.png": "./static/media/azureData.8c941591fc97b847a6bc.png",
+    "static/media/awsGenAI.png": "./static/media/awsGenAI.29e7cafe455f976418a2.png",
     "static/media/azureAI.png": "./static/media/azureAI.142972f51bf565e9a0bc.png",
     "static/media/azureBasic.png": "./static/media/azureBasic.f9242d874153e32a9f32.png",
     "static/media/projectOne.jpg": "./static/media/projectOne.39fec4238511c89b359f.jpg",
     "index.html": "./index.html",
     "main.389f04a9.css.map": "./static/css/main.389f04a9.css.map",
-    "main.83f25d8c.js.map": "./static/js/main.83f25d8c.js.map"
+    "main.eca74ae1.js.map": "./static/js/main.eca74ae1.js.map"
   },
   "entrypoints": [
     "static/css/main.389f04a9.css",
-    "static/js/main.83f25d8c.js"
+    "static/js/main.eca74ae1.js"
   ]
 }
