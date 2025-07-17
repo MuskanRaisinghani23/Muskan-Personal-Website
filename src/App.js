@@ -13,8 +13,8 @@ function App() {
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
-        <Projects />
         <Resume />
+        <Projects />
         <Features />
         <Contact />
         <FooterBottom />

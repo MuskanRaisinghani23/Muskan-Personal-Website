@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
-import { YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, YOUR_PUBLIC_KEY } from './email_config';
+// import { YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, YOUR_PUBLIC_KEY } from './email_config';
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -28,40 +28,40 @@ const Contact = () => {
   // };
   // ========== Email Validation end here ================
 
-  const handleSend = (e) => {
-    e.preventDefault();
-    if (username === "") {
-      setErrMsg("Username is required!");
-    // } else if (phoneNumber === "") {
-    //   setErrMsg("Phone number is required!");
-    } else if (email === "") {
-      setErrMsg("Please give your Email!");
-    // } else if (!emailValidation(email)) {
-    //   setErrMsg("Give a valid Email!");
-    } else if (subject === "") {
-      setErrMsg("Plese give your Subject!");
-    } else if (message === "") {
-      setErrMsg("Message is required!");
-    } else {
-      e.preventDefault();
-      emailjs.sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, form.current, YOUR_PUBLIC_KEY)
-      .then((result) => {
-        setSuccessMsg(
-          `Thank you ${username}, Your message has been sent successfully!`
-        );
-        setErrMsg("");
-        setUsername("");
-        setPhoneNumber("");
-        setEmail("");
-        setSubject("");
-        setMessage("");
-        console.log(result.text);
-      }, (error) => {
-        setErrMsg("Error!");
-      });
+  // const handleSend = (e) => {
+  //   e.preventDefault();
+  //   if (username === "") {
+  //     setErrMsg("Username is required!");
+  //   // } else if (phoneNumber === "") {
+  //   //   setErrMsg("Phone number is required!");
+  //   } else if (email === "") {
+  //     setErrMsg("Please give your Email!");
+  //   // } else if (!emailValidation(email)) {
+  //   //   setErrMsg("Give a valid Email!");
+  //   } else if (subject === "") {
+  //     setErrMsg("Plese give your Subject!");
+  //   } else if (message === "") {
+  //     setErrMsg("Message is required!");
+  //   } else {
+  //     e.preventDefault();
+  //     emailjs.sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, form.current, YOUR_PUBLIC_KEY)
+  //     .then((result) => {
+  //       setSuccessMsg(
+  //         `Thank you ${username}, Your message has been sent successfully!`
+  //       );
+  //       setErrMsg("");
+  //       setUsername("");
+  //       setPhoneNumber("");
+  //       setEmail("");
+  //       setSubject("");
+  //       setMessage("");
+  //       console.log(result.text);
+  //     }, (error) => {
+  //       setErrMsg("Error!");
+  //     });
       
-    }
-  };
+  //   }
+  // };
   return (
     <section
       id="contact"
@@ -71,10 +71,10 @@ const Contact = () => {
         <Title title="CONTACT" des="Contact With Me" />
       </div>
       <div className="w-full">
-        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+        <div className="w-full h-auto lgl:flex-row justify-between">
           <ContactLeft />
-          <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
-            <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5" ref={form} onSubmit={sendEmail}>
+          {/*<div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
+             <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5" ref={form} onSubmit={sendEmail}>
               {errMsg && (
                 <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
                   {errMsg}
@@ -114,7 +114,7 @@ const Contact = () => {
                     } contactInput`}
                     type="text"
                   />
-                </div> */}
+                </div> 
               </div>
               <div className="flex flex-col gap-4">
                 <p className="text-sm text-gray-400 uppercase tracking-wide">
@@ -179,8 +179,8 @@ const Contact = () => {
                   {successMsg}
                 </p>
               )}
-            </form>
-          </div>
+            </form> 
+          </div>*/}
         </div>
       </div>
     </section>

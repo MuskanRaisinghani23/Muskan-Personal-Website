@@ -19,7 +19,7 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full lg:w-auto lg:flex-grow border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="M.S. in Information System"
-            subTitle="Coursework: Data Science Engineering Methods and Tools, Application Engineering and Development"
+            subTitle="Coursework: Generative AI with LLM in Data Engineering, Designing Advanced Data Architectures for Business Intelligence"
             result="GPA 3.9/4"
             des="At Northeastern University, my goal is to acquire skills that directly translate into industry success, enabling me to proficiently design, implement, and optimize solutions. I am dedicated to bridging the gap between academia and practical application, ensuring a seamless transition to contributing value in the professional landscape."
           />
