@@ -4,6 +4,7 @@ import { projectOne, projectTwo, projectThree, projectFour, projectFive, project
 import ProjectsCard from './ProjectsCard';
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
+import { SiTableau } from "react-icons/si";
 
 const Projects = () => {
   return (
@@ -19,52 +20,52 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="PolarSled Govern"
-          des="Developed and deployed PolarSled Govern Framework - A governance platform providing a 360-degree view of Snowflake. I served as lead developer for two PolarSled accelerators - Sentry and Daily Briefing."
+          title="PolarSled - Snowflake Migration and Governance"
+          des="Developed and deployed PolarSled Govern Framework - A governance platform providing a 360-degree view of Snowflake. Served as lead developer for three PolarSled accelerators - Sentry, Daily Briefing and Mesh."
           src={projectOne}
           icon={<FaGlobe/>}
           link="https://www.ltimindtree.com/polarsled/"
         />
         <ProjectsCard
-          title="Real time Data Streaming"
-          des="The project demonstrates an end-to-end data pipeline using Apache Kafka to fetch and stream data from a website. The project is containerized with Docker for streamlined deployment and dependency management."
+          title="NYPD Crime Arrests Data Pipeline"
+          des="A scalable data pipeline built using Azure Data Factory and Snowflake to process and analyze NYPD crime and arrest data. The project includes data profiling, dimensional modeling with ER Studio, and transformation via Alteryx workflows."
           src={projectTwo}
           icon={<BsGithub />}
-          link="https://github.com/MuskanRaisinghani23/Real-Time-Data-Streaming"
+          link="https://github.com/MuskanRaisinghani23/NYPD-arrests-data-pipeline-ADF-to-Snowflake"
         />
         <ProjectsCard
-          title="Cloud Campus"
-          des="
-          CloudCampus is a Decentralized Virtual Education Platform designed to enhance the education system and provide equal opportunities for students. The project is implemented using Java Swing and JDBC."
+          title="Text classification using BERT"
+          des="This project aims to classify text data into three categories: FIN_TABLE, NOISE, and TEXT, using state-of-the-art transformer models from the Huggingface library. The models utilized in this proof of concept (POC) include DistilBERT, BERT, and RoBERTa."
           src={projectThree}
           icon={<BsGithub />}
-          link="https://github.com/MuskanRaisinghani23/CloudCampus"
+          link="https://github.com/MuskanRaisinghani23/Text-classification-using-BERT-models"
         />
         <ProjectsCard
-          title="Credit Card Approval Prediction System"
-          des="The Credit Card Approval Prediction system leverages regression models, AutoML, SHAP analysis, and advanced data visualization techniques. This comprehensive system showcases a blend of sophisticated modeling, automation, and interpretability."
+          title="JobMatch - AI based Job Recommendation System"
+          des="JobMatch is a Job Recommendation System designed to streamline the job search experience by centralizing the job search process and by analyzing user resumes. JobMatch provides tailored job recommendations from platforms like LinkedIn, Indeed, and SimplyHired."
           src={projectFour}
           icon={<BsGithub />}
-          link="https://github.com/MuskanRaisinghani23/CreditCardApprovalPrediction"
+          link="https://github.com/MuskanRaisinghani23/JobMatch-Job-Recommendation-System"
         />
         <ProjectsCard
-          title="Investment Analysis and Portfolio Management"
-          des="This data analytics project uses python's robust modules including Pandas, NumPy, Matplotlib, Seaborn, and Statistics, working extensively with real world Finance data. The project determines powerful relationships between risk, return, and price."
+          title="HomeAI - Room Rental Solution"
+          des="HomieAI makes the process of finding budget-friendly shared housing easier and organized. This project aims to bring scattered WhatsApp groups chats and Facebook Marketplace room listings into one place to make process less messy and save time for the users."
           src={projectFive}
           icon={<BsGithub />}
-          link="https://github.com/MuskanRaisinghani23/Investment-Analysis-and-Portfolio-Management"
+          link="https://github.com/MuskanRaisinghani23/HomeAI"
         />
         <ProjectsCard
-          title="Volunteer Management System"
-          des="The project functions as a worldwide platform that facilitates communication between volunteers and organizations in need. Constructed using Java in NetBeans, the goal of the project is to build centralized system for Volunteers."
+          title="PoliSights - Policy Tracking and Compliance System"
+          des="PoliSights.ai is an AI-powered platform that helps small businesses stay informed about federal policy changes in real time. The system extracts policies from the Federal Register, processes them using AI, delivers personalized recommendations, and alerts to businesses based on their profile."
           src={projectSix}
           icon={<BsGithub />}
-          link="https://github.com/MuskanRaisinghani23/VolunteerManagement"
+          link="https://github.com/MuskanRaisinghani23/PoliSightsAI-Policy-Tracking-System"
         />
+        
       </div>
 
       <div className="flex justify-center items-center text-center mt-20">
-        <a href='https://github.com/MuskanRaisinghani23' target='_blank'>
+        <a href='https://github.com/MuskanRaisinghani23?tab=repositories' target='_blank'>
         <div className="flex flex-col gap-4 font-titleFont">
           <h3 className="text-sm uppercase font-light text-designColor tracking-wide">
             <u>VIEW MORE</u>
