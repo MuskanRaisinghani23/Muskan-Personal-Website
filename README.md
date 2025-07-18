@@ -39,8 +39,8 @@ Visit [https://muskanraisinghani.com](https://muskanraisinghani.com) in your bro
 
 * React
 * GitHub Pages
-* npm
 * Tailwind
+* npm
 
 ---
 
