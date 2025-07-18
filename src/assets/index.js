@@ -12,6 +12,9 @@ import azureAI from "./images/certifications/azureAI.png";
 import azureData from "./images/certifications/azureData.png";
 import snowflakeDE from "./images/certifications/snowflakeDE.png";
 import snowflakeDL from "./images/certifications/snowflakeDL.png";
+import snowPro from "./images/certifications/snowPro.png";
+import awsCCP from "./images/certifications/awsCCP.png";
+import awsGenAI from "./images/certifications/awsGenAI.png";
 import contactImg from "./images/contact/contactImg.png";
 
 export {
@@ -29,5 +32,8 @@ export {
   azureData,
   snowflakeDE,
   snowflakeDL,
+  snowPro,
+  awsCCP,
+  awsGenAI,
   contactImg,
 };

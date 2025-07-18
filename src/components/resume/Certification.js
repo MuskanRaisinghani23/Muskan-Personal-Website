@@ -1,6 +1,6 @@
 import React from "react";
 import Title from '../layouts/Title'
-import { azureBasic,azureData, azureAI, snowflakeDL, snowflakeDE } from "../../assets/index";
+import { azureBasic,azureData, azureAI, snowflakeDL, snowflakeDE, snowPro, awsCCP, awsGenAI } from "../../assets/index";
 import ProjectsCard from '../projects/ProjectsCard';
 import { BsGithub } from "react-icons/bs";
 import { FaLink } from "react-icons/fa";
@@ -18,6 +18,18 @@ const Certification = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-4 gap-2 xl:gap-6">       
+        <ProjectsCard
+          title="AWS Certified Cloud Practitioner"
+          src={awsCCP}
+          icon={<FaLink />}
+          link="https://www.credly.com/badges/e376d0b4-6629-4fbc-bbd8-a96eac4e3188/public_url"
+        />
+        <ProjectsCard
+          title="Snowpro Core Certification by Snowflake"
+          src={snowPro}
+          icon={<FaLink />}
+          link="https://www.credly.com/badges/46867793-80c8-47cb-8e69-140d80db875b/public_url"
+        />
         <ProjectsCard
           title="Data Engineering badge by Snowflake"
           src={snowflakeDE}
@@ -41,6 +53,12 @@ const Certification = () => {
           src={azureData}
           icon={<FaLink />}
           link="https://www.credly.com/badges/b1200396-3d87-484e-a32d-3baf80434947/public_url"
+        />
+        <ProjectsCard
+          title={["AWS Generative AI"]}
+          src={awsGenAI}
+          icon={<FaLink />}
+          link="https://www.credly.com/badges/81ab0fcc-4eec-48b4-af75-d0b3fd54335b/public_url"
         />
         {/* <ProjectsCard
           title="Data Application Builder by Snowflake"
