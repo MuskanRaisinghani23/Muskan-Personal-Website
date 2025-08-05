@@ -34,18 +34,18 @@ const Projects = () => {
           link="https://github.com/MuskanRaisinghani23/NYPD-arrests-data-pipeline-ADF-to-Snowflake"
         />
         <ProjectsCard
-          title="Text classification using BERT"
-          des="This project aims to classify text data into three categories: FIN_TABLE, NOISE, and TEXT, using state-of-the-art transformer models from the Huggingface library. The models utilized in this proof of concept (POC) include DistilBERT, BERT, and RoBERTa."
-          src={projectThree}
-          icon={<BsGithub />}
-          link="https://github.com/MuskanRaisinghani23/Text-classification-using-BERT-models"
-        />
-        <ProjectsCard
           title="JobMatch - AI based Job Recommendation System"
           des="JobMatch is a Job Recommendation System designed to streamline the job search experience by centralizing the job search process and by analyzing user resumes. JobMatch provides tailored job recommendations from platforms like LinkedIn, Indeed, and SimplyHired."
-          src={projectFour}
+          src={projectThree}
           icon={<BsGithub />}
           link="https://github.com/MuskanRaisinghani23/JobMatch-Job-Recommendation-System"
+        />
+        <ProjectsCard
+          title="Text classification using BERT, DistilBERT and RoBERTa"
+          des="This project aims to classify text data into three categories: FIN_TABLE, NOISE, and TEXT, using state-of-the-art transformer models from the Huggingface library. The models utilized in this proof of concept (POC) include DistilBERT, BERT, and RoBERTa."
+          src={projectFour}
+          icon={<BsGithub />}
+          link="https://github.com/MuskanRaisinghani23/Text-classification-using-BERT-models"
         />
         <ProjectsCard
           title="HomeAI - Room Rental Solution"
